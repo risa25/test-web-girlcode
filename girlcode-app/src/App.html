@@ -1,15 +1,17 @@
 <html>
   <link rel="stylesheet" href="App.css">
+  <script src="App.js"></script>
     <header><!--
       <h1>Shirt</h1>
       
       <h1>Dress</h1>
       <h1>Skirt</h1>
       <h1>Image</h1> --> 
-      <button class="buttonsk" id="skirt"></button>
-      <button class="buttonsh" id="shirt"></button>
-      <button class="buttondress" id="dress"></button>
-      <img src="modelresized.png" className="model" alt=""/>
+      <button class="buttonsk" id="skirt" onclick = "addSkirtImage()"></button>
+      <button class="buttonsh" id="shirt" onclick="changeShirtImage()"></button>
+      <button class="buttondress" id="dress" onclick = "changeDressImage()"></button>
+      <img id="model" src="modelresized.png" className="model" alt=""/>
+      
     </header>
 
     
