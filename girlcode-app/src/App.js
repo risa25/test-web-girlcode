@@ -10,7 +10,7 @@ function changeSkirtImage() {
  if (document.getElementById("model").src.match("modelshirt.png")) {
     document.getElementById("model").src = "modelfull.png";
   } else if (document.getElementById("model").src.match("modelfull.png")) {
-   document.getElementById("model").src = "modelskirt.png";
+   document.getElementById("model").src = "modelshirt.png";
  } else if (document.getElementById("model").src.match("modelskirt.png")) {
    document.getElementById("model").src = "modelresized.png";
  } else {
