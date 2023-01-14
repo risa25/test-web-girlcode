@@ -1,0 +1,63 @@
+App {
+  text-align: center;
+}
+
+header {
+  
+  min-height: 100vh;
+  display: flex;
+  background-image: url('background.png');
+  background-size: 100% 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+/*
+background-color: #9FAB94;
+*/
+img {
+  height: auto;
+  width: 25%;
+  background-color: powderblue;
+  display: -webkit-box;
+  margin-left: 1050;
+}
+
+button {
+  display: inline-block;
+  height: 134px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  width: 104px;
+}
+
+
+/*
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+#shirt-image img {
+  height: 134px;
+  width: 104px;
+  background-color: powderblue;
+}
+
+#dress-image img {
+  height: 134px;
+  width: 104px;
+  background-color: powderblue;
+}
+
+#skirt-image img {
+  height: 134px;
+  width: 104px;
+  background-color: powderblue;
+}*/
